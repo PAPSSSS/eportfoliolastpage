@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>Plans and action </title>
+	<link rel="stylesheet"type="text/css"href="style.css">
+</head>
+<body>
+<section>
+	<img src="stars.png" id="stars">
+	<img src="moon.png" id="moon">
+	<img src="mountains_behind.png" id="mountain_behind">
+	<h2 id="text"></h2>
+	<a href="#sec"id="btn">Explore</a>
+	<img src="mountains_front.png" id="mountains_front">
+</section>
+<div  class="sec" id="sec">
+	
+	<p>Being a media literacy person is a good skill or advantage in using social media or any other online platform. I know that the information is correct or false and that there are many people who use social media to destroy people and give false information to people. Therefore, media literacy is very important. Because we can use it in everyday life <br><br>Let's talk about the advantages of having media information literacy, advantages are the following:</p><br>
+	<p><br><br>
+		* Avoid scams<br><br><br>
+
+		*Misinformation can be avoided.<br><br><br>
+
+		* Fake news can be avoided.<br><br><br>
+		* You can tell if something is wrong with the post..<br><br><br>
+		* You can help others, especially with scams and fakenews on the internet.<br><br><br>
+		* You can answer the questions of Mrs. Cano.<br><br><br>
+		* Phissing can be avoided.<br><br><br>
+		* Identity thieves can be avoided.<br><br><br>
+		* to see if the post is clickbait<br><br><br>
+		* and much more<br><br><br>
+		So you see that media infomation literacy is important because you can avoid a lot of bad things on the internet and answer with Ma'am Cano's recitation, you have points in recitation and even avoided bad things that happen on the internet.
+
+		
+
+
+<a href="#">
+<button type="button">HOME</button>
+</a>
+<br><br><br>
+<p>MEDIA INFROMATION LITERACY<BR><BR>PERPORMANCE TASK E-Portfolio<br>
+<br>Submission:January 24,2023<br><br>Submitted to Ms.Camille C.Cano</p>
+
+
+	</p>
+</div>
+</div>
+<div>
+	
+
+<script>
+	let stars = document.getElementById('stars');
+	let moon = document.getElementById('moon');
+	let mountain_behind = document.getElementById('mountain_behind');
+	let text = document.getElementById('text');
+	let btn = document.getElementById('btn');
+	let mountains_front = document.getElementById('mountains_front');
+
+	window.addEventListener('scroll', function(){
+		let value = window.scrollY;
+		stars.style.Left = value * 0.25 + 'px';
+		moon.style.top = value * 1.05 + 'px';
+		mountain_behind.style.top = value * 0.5 + 'px';
+		mountains_front.style.top = value * 0 + 'px';
+		text.style.marginRight = value * 4 + 'px';
+		text.style.marginTop = value * 1.5 + 'px';
+		btn.style.marginTop = value * 1.5 + 'px';
+		})
+</script>
+</body>
+</html>
